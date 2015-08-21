@@ -126,7 +126,6 @@ public class SetCity extends Fragment {
 		return ls;
 	}
 	
-	//�ַ�����ת��list
 	public List<String>  asCityList(String s[][]){
 		List<String> l=new ArrayList<String>();
 		for(int i=0;i<cityCount;i++)

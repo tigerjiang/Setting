@@ -26,10 +26,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import android.net.ethernet.IEthernetManager;
-import android.net.ethernet.EthernetManager;
-import android.net.ethernet.EthernetDevInfo;
-import com.android.settings.DeviceInfoSettings;
+
 import com.android.settings.R;
 
 public class AboutTVDialogFragment extends Fragment {
@@ -49,7 +46,6 @@ public class AboutTVDialogFragment extends Fragment {
 	private static final int LIST_SIZE = 7;
 
 	private static final String FILENAME_PROC_VERSION = "/proc/version";
-	private List<EthernetDevInfo> mListDevices = new ArrayList<EthernetDevInfo>();
 	private static final String LOG_TAG = "DeviceInfoSettings";
 
 
